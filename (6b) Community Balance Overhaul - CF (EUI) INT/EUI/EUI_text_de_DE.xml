@@ -4,7 +4,7 @@
 	<language_de_DE>
 		<!-- C4DF Support-->
 		<Row Tag="TXT_KEY_C4DF_VASSAL_OVERVIEW">
-			<Text>Vasallenschaft Übersicht</Text>
+			<Text>Vasallenübersicht</Text>
 		</Row>
 <!-- UNIT attributes -->
 		<Row Tag="TXT_KEY_EUI_UNIT_MOVEAFTERPURCHASE">
@@ -110,7 +110,7 @@
 			<Text>Lufteinheiten Obergrenze {1}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_UNIT_NUKEDAMAGELEVEL">
-			<Text>Atombomben Schaden Level {1}</Text>
+			<Text>Atombomben Schadenslevel {1}</Text>
 		</Row>
 		<!--Row Tag="TXT_KEY_EUI_UNIT_WORKRATE">
 			<Text>Work Rate {1}</Text>
@@ -208,7 +208,7 @@
 			<Text>{TXT_KEY_BUILDING_COURTHOUSE_HELP}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_ALLOWSRANGESTRIKE">
-			<Text>{TXT_KEY_PROMOTION_INDIRECT_FIRE}</Text>
+			<Text>Erlaubt Fernkampfangriff</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_ESPIONAGE">
 			<Text>{TXT_KEY_GAME_CONCEPT_SECTION_22}</Text>
@@ -467,6 +467,20 @@
 		</Row>
 		<Row Tag="TXT_KEY_AIR_STRENGTH_DEFENSE">
 			<Text>Luftschlagverteidigung:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUI_GLOBAL">
+			<Text>[COLOR_HIGHLIGHT_TEXT]Global[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUI_EMPIRE">
+			<Text>[COLOR_HIGHLIGHT_TEXT]Reich[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_EUI_RESOURCES_QUANTITY_TOTAL_REQUIRED">
+			<Text>Zugriff benötigt</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_EUI_RESOURCES_QUANTITY_TOTAL_REQUIRED_UNIT_PANEL">
+			<Text>Zugriff auf Ressource benötigt:</Text>
 		</Row>
 	</language_de_DE>
 </GameData>
