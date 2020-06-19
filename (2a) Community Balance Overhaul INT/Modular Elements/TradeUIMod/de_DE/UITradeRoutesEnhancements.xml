@@ -41,22 +41,16 @@
 			<Text>[COLOR_POSITIVE_TEXT]Örtliche Handelsgebäude-Klassen:[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CARAVANSARY">
-			<Text>Karawanenhof</Text>
+			<Text>[ICON_BULLET] Allows Food Routes</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HARBOR">
-			<Text>Hafen</Text>
+			<Text>[ICON_BULLET] Connected to Capital</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATE_OFFICE">
-			<Text>Konzernbüro</Text>
-		</Row>
-		<Row Tag="TXT_KEY_GRANARY">
-			<Text>Kornspeicher</Text>
+			<Text>[ICON_BULLET] Has Corporate Office</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WORKSHOP">
-			<Text>Werkstatt</Text>
-		</Row>
-		<Row Tag="TXT_KEY_STONE_WORKS">
-			<Text>Steinwerke</Text>
+			<Text>[ICON_BULLET] Allows Production Routes</Text>
 		</Row>
 	</Language_de_DE>
 </GameData>
