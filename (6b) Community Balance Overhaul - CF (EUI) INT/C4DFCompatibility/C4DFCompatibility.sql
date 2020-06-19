@@ -1,9 +1,13 @@
 -- Insert SQL Rules Here 
 
+UPDATE Buildings
+SET VassalLevyEra = '1'
+WHERE Type = 'BUILDING_PALACE';
+
 UPDATE Language_de_DE
-SET Text = '{1_PlayerName} has conquered {2_CityName} and restored {3_CivAdj} sovereignty. The flame of the {4_CivName}, once extinguished, burns again. {4_CivName} is now the vassal of {1_Playername}.'
+SET Text = '{1_PlayerName} hat {2_CityName} erobert und die {3_CivAdj} Souveränität wiederhergestellt. Die Flamme von {4_CivName}, einst erloschen, erstrahlt wieder. {4_CivName} ist jetzt ein Vasall von {1_Playername}.'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_CIV_RESURRECTED';
 
 UPDATE Language_de_DE
-SET Text = 'This City was formerly owned by [COLOR_POSITIVE_TEXT]{@1_PlayerName}[ENDCOLOR]. You have the opportunity to return it to them, for which they would be eternally grateful. Doing so will make this player your [COLOR_POSITIVE_TEXT]Voluntary Vassal[ENDCOLOR].'
+SET Text = 'Diese Stadt war im Besitz von [COLOR_POSITIVE_TEXT]{@1_PlayerName}[ENDCOLOR]. Du hast jetzt die Möglichkeit diese zurückzugeben, für das sie sich ewiglich dankbar zeigen werden. Durch diesen Schritt wird der Spieler dein [COLOR_POSITIVE_TEXT]freiwilliger Vasall[ENDCOLOR].'
 WHERE Tag = 'TXT_KEY_POPUP_CITY_CAPTURE_INFO_LIBERATE_RESURRECT';
